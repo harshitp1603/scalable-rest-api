@@ -6,6 +6,9 @@ app.use(express.json());
 
 const authRoutes = require("./routes/authRoutes");
 const adminRoutes = require("./routes/adminRoutes");
+const taskRoutes = require("./routes/taskRoutes");
+
+app.use("/api/v1/tasks", taskRoutes);
 
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/admin", adminRoutes);

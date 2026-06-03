@@ -1,5 +1,16 @@
 # Scalable REST API with Authentication & Role-Based Access Control
 
+## Screenshots
+
+### Login page
+
+<img width="1918" height="904" alt="Screenshot 2026-06-03 212918" src="https://github.com/user-attachments/assets/cc011e76-e442-4f55-abb5-392c856c2b2b" />
+
+
+### Register page
+
+<img width="1919" height="885" alt="Screenshot 2026-06-03 212937" src="https://github.com/user-attachments/assets/82d9a8ea-153e-4bee-bd3f-b4390f4c1402" />
+
 ## Overview
 
 This project is a full-stack Task Management System built using Node.js, Express.js, MySQL, Sequelize, React, and JWT Authentication. It demonstrates scalable backend architecture, secure authentication, role-based authorization, CRUD operations, API documentation, and frontend integration.
@@ -116,18 +127,6 @@ scalable-rest-api
 
 ---
 
-## Screenshots
-
-### Login page
-
-<img width="1918" height="904" alt="Screenshot 2026-06-03 212918" src="https://github.com/user-attachments/assets/cc011e76-e442-4f55-abb5-392c856c2b2b" />
-
-
-### Register page
-
-<img width="1919" height="885" alt="Screenshot 2026-06-03 212937" src="https://github.com/user-attachments/assets/82d9a8ea-153e-4bee-bd3f-b4390f4c1402" />
-
----
 ## Installation
 
 ### Clone Repository

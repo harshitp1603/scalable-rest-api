@@ -116,58 +116,18 @@ scalable-rest-api
 
 ---
 
-## Database Schema
+## Screenshots
 
-### User
+### Login page
 
-| Field    | Type       |
-| -------- | ---------- |
-| id       | Integer    |
-| name     | String     |
-| email    | String     |
-| password | String     |
-| role     | user/admin |
+<img width="1918" height="904" alt="Screenshot 2026-06-03 212918" src="https://github.com/user-attachments/assets/cc011e76-e442-4f55-abb5-392c856c2b2b" />
 
-### Task
 
-| Field       | Type                          |
-| ----------- | ----------------------------- |
-| id          | Integer                       |
-| title       | String                        |
-| description | Text                          |
-| status      | pending/in-progress/completed |
-| userId      | Integer                       |
+### Register page
+
+<img width="1919" height="885" alt="Screenshot 2026-06-03 212937" src="https://github.com/user-attachments/assets/82d9a8ea-153e-4bee-bd3f-b4390f4c1402" />
 
 ---
-
-## API Endpoints
-
-### Authentication
-
-| Method | Endpoint              |
-| ------ | --------------------- |
-| POST   | /api/v1/auth/register |
-| POST   | /api/v1/auth/login    |
-| GET    | /api/v1/auth/profile  |
-
-### Admin
-
-| Method | Endpoint                |
-| ------ | ----------------------- |
-| GET    | /api/v1/admin/dashboard |
-
-### Tasks
-
-| Method | Endpoint          |
-| ------ | ----------------- |
-| POST   | /api/v1/tasks     |
-| GET    | /api/v1/tasks     |
-| GET    | /api/v1/tasks/:id |
-| PUT    | /api/v1/tasks/:id |
-| DELETE | /api/v1/tasks/:id |
-
----
-
 ## Installation
 
 ### Clone Repository
@@ -236,33 +196,6 @@ http://localhost:5000/api-docs
 * Protected API routes
 * Request validation
 * User-specific resource ownership
-
----
-
-## Future Improvements
-
-* Docker Deployment
-* Redis Caching
-* Refresh Tokens
-* Email Verification
-* Password Reset
-* CI/CD Pipeline
-* Unit & Integration Testing
-* Cloud Deployment (AWS/Azure/GCP)
-
----
-
-## Learning Outcomes
-
-This project demonstrates:
-
-* Backend API Development
-* Authentication & Authorization
-* Database Design
-* REST API Architecture
-* Full-Stack Integration
-* Secure Coding Practices
-* Scalable Project Structure
 
 ---
 

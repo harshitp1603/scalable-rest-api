@@ -266,9 +266,3 @@ This project demonstrates:
 
 ---
 
-## Author
-
-Harshit Pandey
-
-Built as a portfolio project to demonstrate full-stack development, authentication, role-based access control, REST API design, and scalable application architecture.
-
